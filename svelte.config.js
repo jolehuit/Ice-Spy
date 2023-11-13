@@ -1,10 +1,10 @@
 import adapter from '@sveltejs/adapter-vercel';
-
-export default {
+import { vitePreprocess } from '@sveltejs/kit/vite';
+/** @type {import('@sveltejs/kit').Config} */
+const config = {
 	kit: {
-		adapter: adapter({
-			// see the 'Deployment configuration' section below
-		})
-	}
+		adapter: adapter()
+	},
+	preprocess: vitePreprocess()
 };
-
+export default config;
