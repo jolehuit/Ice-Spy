@@ -1,38 +1,35 @@
-# create-svelte
+Ice Spy
+Ice Spy est une plateforme en développement qui permet de trouver et d'analyser des portefeuilles de cryptomonnaies (wallets) performants selon différents critères.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Stack
+Ice Spy est développé en utilisant les technologies suivantes :
 
-## Creating a project
+Svelte
+TypeScript
+JavaScript
+Fonctionnalités
+Ice Spy propose actuellement les fonctionnalités suivantes :
 
-If you're seeing this, you've probably already done this step. Congrats!
+Recherche de portefeuilles sur la blockchain Ethereum selon des plages horaires définies
+Trouver wallets d'influenceurs et analyser leurs investissements
+Mise à Jour
+Ice Spy est en constante évolution. Voici les mises à jour à venir :
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Fonctionnement du bot sur la blockchain Arbitrum
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+Expansion de la fonctionnalité du bot pour prendre en charge la blockchain Arbitrum.
+Ajout du scrapper de Dexscreener
 
-## Developing
+Intégration du scrapper Dexscreener pour lister les tokens performants.
+Fonctionnalités pour trouver les wallets créateurs de token performant
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Ajout de fonctionnalités permettant d'identifier les wallets créateurs de tokens performants.
+Fonctionnalités pour trouver les whales des tokens performants
 
-```bash
-npm run dev
+Introduction de fonctionnalités pour localiser les "whales" des tokens performants.
+Fonctionnalités pour trouver les wallets early des tokens performants
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+Ajout de fonctionnalités pour repérer les portefeuilles ayant investi tôt dans des tokens performants.
+Ajout d'un dashboard
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Mise en place d'un tableau de bord pour suivre l'évolution des portefeuilles et des tendances du marché.
