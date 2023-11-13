@@ -1,38 +1,40 @@
-# create-svelte
+# Ice Spy
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+Ice Spy est une plateforme en développement qui permet de trouver et d'analyser des portefeuilles de cryptomonnaies (wallets) performants selon différents critères.
 
-## Creating a project
+## Stack
 
-If you're seeing this, you've probably already done this step. Congrats!
+Ice Spy est développé en utilisant les technologies suivantes :
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+- [Svelte](https://svelte.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- JavaScript
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Fonctionnalités
 
-## Developing
+Ice Spy propose actuellement les fonctionnalités suivantes :
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+- Recherche de portefeuilles sur la blockchain Ethereum selon des plages horaires définies
+- Trouver wallets d'influenceurs et analyser leurs investissements
+  
+## Mise à Jour
 
-```bash
-npm run dev
+Ice Spy est en constante évolution. Voici les mises à jour à venir :
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+1. **Fonctionnement du bot sur la blockchain Arbitrum**
+   - Expansion de la fonctionnalité du bot pour prendre en charge la blockchain Arbitrum.
 
-## Building
+2. **Ajout du scrapper de Dexscreener**
+   - Intégration du scrapper Dexscreener pour lister les tokens performants.
 
-To create a production version of your app:
+3. **Fonctionnalités pour trouver les wallets créateurs de token performant**
+   - Ajout de fonctionnalités permettant d'identifier les wallets créateurs de tokens performants.
 
-```bash
-npm run build
-```
+4. **Fonctionnalités pour trouver les whales des tokens performants**
+   - Introduction de fonctionnalités pour localiser les "whales" des tokens performants.
 
-You can preview the production build with `npm run preview`.
+5. **Fonctionnalités pour trouver les wallets early des tokens performants**
+   - Ajout de fonctionnalités pour repérer les portefeuilles ayant investi tôt dans des tokens performants.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+6. **Ajout d'un dashboard**
+   - Mise en place d'un tableau de bord pour suivre l'évolution des portefeuilles et des tendances du marché.
