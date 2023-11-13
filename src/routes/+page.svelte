@@ -5,17 +5,17 @@ import { fade } from 'svelte/transition';
 import { quintInOut } from "svelte/easing";
 
 
-  let token1input:string="0x21E6bc780bFcd36D36444F68e4962c7cEB255229"; // adresse du contrat du premier token
+  let token1input:string="0x21E6bc780bFcd36D36444F68e4962c7cEB255229";
   let token1:string=token1input;
-  let token2input:string="0xCCD3891c1452b7CB0E4632774B9365DC4eE24f20"; // adresse du contrat du deuxième token
+  let token2input:string="0xCCD3891c1452b7CB0E4632774B9365DC4eE24f20";
   let token2:string=token2input;
-  let startBlock1input:string="69141817";// Block de l'heure où on veut commencer l'analyse pour le 1er token (Trouvable sur l'explorer)
+  let startBlock1input:string="69141817";
   let startBlock1:string=startBlock1input;
-  let endBlock1input:string="69152228"; // Block de l'heure où on veut terminer l'analyse pour le 1er token (Trouvable sur l'explorer)
+  let endBlock1input:string="69152228";
   let endBlock1:string=endBlock1input;
-  let startBlock2input:string="67809815"; // Block de l'heure où on veut commencer l'analyse pour le 2eme token (Trouvable sur l'explorer)
+  let startBlock2input:string="67809815";
   let startBlock2:string=startBlock2input;
-  let endBlock2input:string ="67865385"; // Block de l'heure où on veut terminer l'analyse pour le 2eme token (Trouvable sur l'explorer)
+  let endBlock2input:string ="67865385";
   let endBlock2:string=endBlock2input;
   let walletsSearch:boolean=false;
 
